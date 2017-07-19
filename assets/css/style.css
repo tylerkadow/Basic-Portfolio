@@ -155,13 +155,13 @@ The width of the main content, the connect content, and the margin in between is
 	font-size: 16px;
 }
 
-#textbox, textarea {
+.textbox, textarea {
 	margin-top: 5px;
 	width: 99%;
 	padding: 2px;
 }
 
-#textbox {
+.textbox {
 	height: 24px;
 }
 
