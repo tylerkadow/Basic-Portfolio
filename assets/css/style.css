@@ -28,7 +28,7 @@ ul {
 	list-style-type: none
 }
 
-/* Add a white background color to the top navigation */
+/* Add a white background color to the top navigation and stylize/position the elements*/
 
 .topnav {
 	overflow: hidden;
@@ -57,8 +57,12 @@ ul {
 /* Adds a vertical line in between each link (needs some work)
 
 li + li:before{
+
     content: "|";
+
 } */
+
+/*Used these id tags to position the elements*/
 
 #first {
 	margin-left: 800px;
@@ -89,6 +93,8 @@ li + li:before{
 	margin: 0 10px 10px 0;
 }
 
+/*The min-height calculation 1s so the footer would remain at the bottom of the page*/
+
 .content {
 	background-color: white;
     width: 620px;
@@ -99,6 +105,10 @@ li + li:before{
     border-color: #dddddd;
     float: left;
 }
+
+/*Keeps the connect section to the right of the main content.
+The width of the main content, the connect content, and the margin in between is 960px*/
+
 .connect {
 	background-color: white;
 	width: 220px;
@@ -107,6 +117,8 @@ li + li:before{
     position: absolute;
     float: right;
 }
+
+/*Image style for portfolio*/
 
 .image {
 	position: relative;
@@ -133,6 +145,8 @@ li + li:before{
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+/*Styling for the contact page*/
+
 #submit {
 	width: 100px;
 	height: 40px;
@@ -155,6 +169,8 @@ textarea {
 	height: 200px;
 }
 
+/*For the footer, with the negative margin-top and clear: both to make a sticky footer*/
+
 .footer {
 	text-align: center;
 	background-color: #777777;
@@ -162,6 +178,8 @@ textarea {
 	padding: 0;
 	margin-top: -50px;
 }
+
+/*For the text of the footer*/
 
 .footer p {
 	color: white;
